@@ -1,11 +1,13 @@
 <?php
-include './includes/templates/header.php';
+require 'includes/funciones.php';
+incluirTemplate('header');
 ?>
 
-<main class="contenedor seccion">
-  <h1>titulo Pagina</h1>
+
+
+<main class="contenedor seccion contenido-centrado contenido-anuncio">
+  <h1>BASE DE PAGINA</h1>
 </main>
 
-
 <?php
-include "./includes/templates/footer.php"; ?>
+incluirTemplate('footer') ?>
